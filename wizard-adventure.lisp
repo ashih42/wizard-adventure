@@ -52,11 +52,11 @@
 
 ;;; Commands
 
-(defun look()
+(defun look ()
     (append (describe-location *location* *nodes*)
             (describe-paths *location* *edges*)
             (describe-objects *location* *objects* *object-locations*)))
-    
+
 (defun walk (direction)
     (let ((next (find direction
                     (cdr (assoc *location* *edges*))

@@ -2,6 +2,7 @@
 
 (load "wizard-adventure.lisp")
 (load "game-repl.lisp")
+(load "wizard-dsl.lisp")
 
 ;;; Compile with SBCL
 ;;; sbcl --script main.lisp
