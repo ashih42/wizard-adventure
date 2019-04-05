@@ -1,5 +1,5 @@
 # wizard-adventure
-A text-based exploration game in Common Lisp, adapted fom [Land of Lisp](http://landoflisp.com/), Chapters 5 and 6.
+A text-based exploration game in Common Lisp, adapted fom [Land of Lisp](http://landoflisp.com/), Chapters 5, 6, and 17.
 
 ![Art](https://github.com/ashih42/wizard-adventure/blob/master/art.png)
 
@@ -18,3 +18,4 @@ sbcl --script main.lisp
 ```
 ./wizard-adventure
 ```
+Hint: Your goal is to wake up the wizard.
